@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFC855412CCD133A00937CED /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC855402CCD133A00937CED /* CameraView.swift */; };
+		EFC855432CCD133E00937CED /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC855422CCD133E00937CED /* CameraViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EFC855242CCD132100937CED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		EFC855132CCD132000937CED /* SimpleFusionCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFusionCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC855232CCD132100937CED /* SimpleFusionCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFusionCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC8552D2CCD132100937CED /* SimpleFusionCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFusionCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC855402CCD133A00937CED /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		EFC855422CCD133E00937CED /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		EFC8550A2CCD132000937CED = {
 			isa = PBXGroup;
 			children = (
+				EFC855422CCD133E00937CED /* CameraViewModel.swift */,
+				EFC855402CCD133A00937CED /* CameraView.swift */,
 				EFC855152CCD132000937CED /* SimpleFusionCam */,
 				EFC855262CCD132100937CED /* SimpleFusionCamTests */,
 				EFC855302CCD132100937CED /* SimpleFusionCamUITests */,
@@ -236,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC855412CCD133A00937CED /* CameraView.swift in Sources */,
+				EFC855432CCD133E00937CED /* CameraViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +410,9 @@
 				DEVELOPMENT_TEAM = 9D79AWT4TU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "take photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "save photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "save photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +442,9 @@
 				DEVELOPMENT_TEAM = 9D79AWT4TU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "take photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "save photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "save photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
